@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Barlow:ital,wght@1,300&family=McLaren&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Barlow:ital,wght@1,300&family=Fraunces:wght@600&family=McLaren&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Barlow:ital,wght@1,300&family=Fraunces:wght@600;700&family=McLaren&display=swap');
+
+
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3dbeff;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    margin-top: -50px;
+    margin-right: 50px;
+
+}
+
+.nav>div {
+    padding: 10px;
+}
+
+
+.sunnyside {
+
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 140px;
+    margin-top: 40px;
+    font-size: 40px;
+
+}
+
+.contact {
+    background-color: white;
+    font-family: 'Fraunces', serif;
+    color: black;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+}
+
+.weAre {
+    color: white;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    margin-left: 90px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.image {
+
+    position: relative;
+    margin-top: -1px;
+    text-align: center;
+    margin-bottom: -5px;
+
+}
+
+
+.icon {
+
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+
+
+}
+
+.img {
+
+    height: 500px;
+    width: 1000px;
+    margin-left: 200px;
+    position: static;
+    display: inline-block;
+    margin: 0 auto;
+
+
+}
+
+.grid1 {
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: -22px;
+    text-align: center;
+
+
+
+
+}
+
+.grid1 .grid1-item1 {
+
+    font-family: 'Fraunces', serif;
+    background-color: white;
+    height: 500px;
+    padding: auto;
+    white-space: normal;
+
+
+}
+
+.grid1 .grid1-item1 .last {
+
+    background-color: #fff1be;
+    margin-left: 340px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-right: 230px;
+    height: 13px;
+}
+
+.grid1 .grid1-item1 .item1-title {
+
+    font-weight: 900;
+    font-size: 80px;
+    margin-left: 120px;
+}
+
+.grid1 .grid1-item1 .item1-para {
+
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 170px;
+    white-space: pre-wrap;
+    margin-right: 100px;
+    line-height: 32px;
+}
+
+.grid1 .grid1-item1 .item-learn {
+
+    font-family: 'Fraunces', serif;
+    font-weight: 900px;
+    font-size: medium;
+    margin-left: 110px;
+
+}
+
+
+
+
+.grid1 .grid1-item2 {
+
+    background-color: white;
+    height: 500px;
+    padding: auto;
+    white-space: normal;
+
+
+}
+
+.eg {
+
+    width: 750px;
+}
+
+.grid1 .grid1-item3 {
+
+
+    height: 500px;
+    width: 700px;
+
+}
+
+.grid1 .grid1-item4 {
+
+    font-family: 'Fraunces', serif;
+    background-color: white;
+    height: 600px;
+    padding: auto;
+    white-space: normal;
+    text-align: center;
+}
+
+.grid1 .grid1-item4 .stand {
+
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-right: 160px;
+    white-space: normal;
+}
+
+.grid1 .grid1-item4 .item4-para {
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 60px;
+    white-space: normal;
+    margin-right: 220px;
+    line-height: 32px;
+}
+
+.grid1 .grid1-item4 .item4-learn {
+    font-family: 'Fraunces', serif;
+    font-weight: 900px;
+    font-size: medium;
+    margin-left: -200px;
+
+}
+
+.grid1 .grid1-item4 .last4 {
+
+    background-color: #fff1be;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-right: 400px;
+    height: 13px;
+
+
+}
+
+.grid1 .grid1-item5 {
+
+    background-image: url('desktop/image-graphic-desk.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Fraunces', serif;
+    padding: auto;
+    white-space: normal;
+
+    height: 500px;
+
+}
+
+.grid1 .grid1-item5 .graphic {
+
+    opacity: 0.5;
+    margin-top: 320px;
+    text-align: center;
+}
+
+.grid1 .grid1-item5 .item5-para {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 170px;
+    white-space: pre-wrap;
+    margin-right: 100px;
+    line-height: 25px;
+    margin-top: -5px;
+
+
+}
+
+.grid1 .grid1-item6 {
+
+    background-image: url('desktop/image-photography.jpg');
+    font-family: 'Fraunces', serif;
+    background-color: white;
+    padding: auto;
+    white-space: normal;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 500px;
+
+}
+
+.grid1 .grid1-item6 .graphic6 {
+
+    opacity: 0.5;
+    margin-top: 330px;
+    text-align: center;
+    margin-right: 140px;
+
+
+}
+
+.grid1 .grid1-item6 .item6-para {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 140px;
+    white-space: pre-wrap;
+    margin-right: 50px;
+    line-height: 25px;
+    margin-top: -10px;
+    margin-right: 220px;
+
+}
+
+.div-card {
+
+    height: 700px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: -100px;
+
+}
+
+.div-card .client {
+
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color: gray;
+    padding-top: 150px;
+    letter-spacing: 5px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    height: 500px;
+
+    background-color: white;
+
+}
+
+
+.grid2 .grid2-item1 .div-emily {
+    text-align: center;
+}
+
+.grid2 .grid2-item1 .image-emily {
+
+    width: 100px;
+    clip-path: ellipse(50% 50%);
+    margin-top: 50px;
+}
+
+.grid2 .grid2-item1 .grid2-para1 {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 100px;
+    white-space: pre-wrap;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.grid2 .grid2-item1 .title-emily {
+
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: 50px;
+
+
+}
+
+.grid2 .grid2-item1 .grid2-para2 {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-weight: bold;
+    margin-left: 100px;
+
+
+
+}
+
+
+.grid2 .grid2-item2 .div-thomas {
+    text-align: center;
+}
+
+.grid2 .grid2-item2 .image-thomas {
+
+    width: 100px;
+    clip-path: ellipse(50% 50%);
+    margin-top: 50px;
+}
+
+.grid2 .grid2-item2 .grid2-para3 {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 100px;
+    white-space: pre-wrap;
+    line-height: 30px;
+    margin-top: 60px;
+
+}
+
+.grid2 .grid2-item2 .title-thomas {
+
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-top: 50px;
+
+}
+
+.grid2 .grid2-item2 .grid2-para4 {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-weight: bold;
+    margin-left: 60px;
+
+
+
+}
+
+.grid2 .grid2-item3 .div-jennie {
+    text-align: center;
+}
+
+.grid2 .grid2-item3 .image-jennie {
+
+    width: 100px;
+    clip-path: ellipse(50% 50%);
+    margin-top: 50px;
+}
+
+.grid2 .grid2-item3 .grid2-para5 {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 70px;
+    white-space: normal;
+    line-height: 30px;
+    margin-top: 60px;
+    margin-right: 130px;
+
+}
+
+.grid2 .grid2-item3 .title-jennie {
+
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 190px;
+    margin-top: 40px;
+
+}
+
+.grid2 .grid2-item3 .grid2-para6 {
+
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+    font-weight: bold;
+    margin-left: 30px;
+
+
+
+}
+
+.grid3 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+
+}
+
+.grid3 .grid3-item1 .image-milk {
+
+    width: 400px;
+    height: 500px;
+
+}
+
+.grid3 .grid3-item2 .image-orange {
+
+    width: 400px;
+    height: 500px;
+
+}
+
+.grid3 .grid3-item3 .image-cone {
+
+    width: 400px;
+    height: 500px;
+
+}
+
+.grid3 .grid3-item4 .image-sugar {
+
+    width: 400px;
+    height: 500px;
+
+}
+
+.footer {
+
+    margin-top: -5px;
+    height: 60vh;
+    width: 110vw;
+    text-align: center;
+
+}
+
+.last-div .sunnyside2 {
+
+    color: #297261;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.last-div .nav2 {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 30px;
+    color: #297261;
+    font-weight: bold;
+    margin-right: 50px;
+
+
+}
+
+.last-div .nav2>div {
+
+    padding: 20px;
+}
+
+.links>img {
+
+    margin-top: 20px;
+    margin-right: 40px;
+
+
+}
+
+
+.links .image-facebook {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 800px) and (orientation: landscape) {}

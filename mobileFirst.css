@@ -1,0 +1,426 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Barlow:ital,wght@0,900;1,300&family=Fraunces:wght@600;700&family=M+PLUS+Rounded+1c:wght@900&family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Barlow:ital,wght@1,300;1,900&family=Fraunces:wght@700&family=M+PLUS+Rounded+1c:wght@900&family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Barlow:ital,wght@0,200;1,300;1,900&family=Fraunces:wght@700&family=M+PLUS+Rounded+1c:wght@900&family=McLaren&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #3dbeff;
+   
+    overflow-x: hidden;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+
+    color: white;
+
+    margin-left: 50px;
+}
+.sunnyside {
+   
+    margin-top: 15px;
+
+
+}
+
+.nav>div {
+    padding-bottom: 10px;
+}
+.nav {
+
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.contact {
+
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    width: 90px;
+
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin-left: -10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.weAre {
+
+    font-family: 'Fraunces', serif;
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.icon {
+
+    margin-left: 210px;
+    margin-bottom: -150px;
+    transform: translateX(-120%);
+
+}
+.img {
+
+    width: 120%;
+    margin-left: -50px;
+    margin-top: -40px;
+    margin-bottom: -27px;
+}
+.grid1 {
+    text-align: center;
+
+}
+.grid1-item1 {
+    background-color: white;
+}
+.item1-title {
+    font-family: 'Fraunces', serif;
+
+}
+.item1-para {
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    opacity: 0.7;
+}
+
+.item-learn {
+
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+/* .last {
+
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin-left: 250px;
+    
+} */
+
+.grid1-item2 {
+
+    margin-top: -10px;
+  
+}
+
+.eg {
+
+    width: 100%;
+
+}
+.grid1-item3 {
+
+    margin-top: -10px;
+}
+
+
+.tasse {
+
+    width: 100%;
+
+}
+
+.grid1-item4 {
+    background-color: white;
+    margin-top: -30px;
+    padding-top: 10px;
+}
+.stand {
+
+    font-family: 'Fraunces', serif;
+
+}
+
+.item4-para {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    opacity: 0.7;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.item4-learn {
+
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding-bottom: 20px;
+
+}
+
+.grid1-item5 {
+          
+     background-image: url("desktop/image-graphic-desk.jpg");
+     background-repeat: no-repeat;
+     background-size: 95%;
+    height: 500px;
+    width: 440px;
+    margin-top: -23px;
+    padding-top: 150px;
+    
+    
+}
+
+.graphic {
+  
+    font-family: 'Fraunces', serif;
+    margin-right: 80px;
+    margin-top: 20px;
+
+}
+
+.item5-para {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-right: 100px;
+    margin-top: -20px;
+    margin-left: 40px;
+    
+
+}
+
+.grid1-item6 {
+
+    background-image: url("desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: 95%;
+   height: 500px;
+   width: 440px;
+   margin-top: -210px;
+   padding-top: 190px;
+   margin-bottom: -173px;
+   
+
+}
+
+.graphic6 {
+
+    font-family: 'Fraunces', serif;
+    margin-right: 100px;
+    margin-top: -5px;
+
+}
+
+.item6-para {
+
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-right: 100px;
+    margin-left: 40px;
+
+}
+
+.div-card {
+
+    background-color: white;
+    text-align: center;
+    
+}
+
+.client {
+
+    text-align: center;
+
+    font-family: 'Fraunces', serif;
+    opacity: 0.4;
+    padding-top: 40px;
+    margin-right: 50px;
+    margin-left: 40px;
+    
+}
+.image-emily {
+
+    clip-path: circle(40%);
+  
+}
+
+.grid2-para1 {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
+.title-emily {
+
+    font-family: 'Fraunces', serif;
+    padding-top: 5px;
+    font-size: 20px;
+
+}
+
+.grid2-para2 {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-top: -10px;
+    opacity: 0.7;
+
+}
+
+.image-thomas {
+
+
+    clip-path: circle(40%);
+}
+
+.grid2-para3 {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 30px;
+    opacity: 0.7;
+
+}
+
+.title-thomas {
+
+    font-family: 'Fraunces', serif;
+    padding-top: 5px;
+    font-size: 20px;
+    
+
+}
+
+.grid2-para4 {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-top: -10px;
+    opacity: 0.7;
+
+}
+
+.image-jennie {
+
+
+    clip-path: circle(40%);
+}
+
+.grid2-para5 {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 30px;
+    opacity: 0.7;
+
+}
+
+.title-jennie {
+
+    font-family: 'Fraunces', serif;
+    padding-top: 5px;
+    font-size: 20px;
+
+}
+
+.grid2-para6 {
+
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    margin-bottom: -5px;
+    opacity: 0.7;
+
+}
+
+
+.grid3 {
+
+    display: block;
+    
+  
+}
+
+.image-milk {
+
+    width: 100%;
+
+}
+
+.image-orange {
+
+    width: 100%;
+    margin-top: -5px;
+
+}
+
+.image-cone {
+
+    width: 100%;
+    margin-top: -5px;
+
+}
+
+.image-sugar {
+
+    width: 100%;
+    margin-top: -4px;
+
+}
+
+.footer {
+
+    text-align: center;
+    height: 300px;
+    margin-top: 100px;
+}
+.sunnyside2:hover {
+
+    fill: black !important;
+    
+}
+
+.nav2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+}
+
+.nav2>div {
+
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.links {
+
+    margin-top: 30px;
+    
+}
+
+.links>img {
+
+    padding: 10px;
+}
